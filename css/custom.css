@@ -1,0 +1,13 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+@media (min-width:768px){
+	.navbar-inverse .navbar-nav>li {
+		border-bottom: 3px solid black;
+	}
+	.navbar-inverse .navbar-nav>li:hover {
+		border-bottom: 3px solid white;
+	}
+}
