@@ -3,9 +3,12 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+#mc_embed_signup form {
+	padding: 0;
+}
 @media (min-width:768px){
 	.navbar-inverse .navbar-nav>li {
-		border-bottom: 3px solid black;
+		border-bottom: 3px solid #222;
 	}
 	.navbar-inverse .navbar-nav>li:hover {
 		border-bottom: 3px solid white;
