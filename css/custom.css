@@ -6,6 +6,9 @@ body {
 #mc_embed_signup form {
 	padding: 0;
 }
+.navbar {
+	border: none;
+}
 @media (min-width:768px){
 	.navbar-inverse .navbar-nav>li {
 		border-bottom: 3px solid #222;
